@@ -16,6 +16,18 @@
     ],
     "baseUrl": ".",
     "paths": {
+      "@suite-employee/core-layout": [
+        "libs/core-layout/src/index.ts"
+      ],
+      "@suite-employee/core-components": [
+        "libs/core-components/src/index.ts"
+      ],
+      "@suite-employee/core-profile": [
+        "libs/core-profile/src/index.ts"
+      ],
+      "@suite-employee/core-notification": [
+        "libs/core-notification/src/index.ts"
+      ]
     }
   },
   "exclude": [

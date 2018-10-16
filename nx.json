@@ -7,5 +7,48 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "home": {
+      "tags": []
+    },
+    "home-e2e": {
+      "tags": []
+    },
+    "directory": {
+      "tags": []
+    },
+    "directory-e2e": {
+      "tags": []
+    },
+    "news": {
+      "tags": []
+    },
+    "news-e2e": {
+      "tags": []
+    },
+    "profile": {
+      "tags": []
+    },
+    "profile-e2e": {
+      "tags": []
+    },
+    "benefits": {
+      "tags": []
+    },
+    "benefits-e2e": {
+      "tags": []
+    },
+    "core-layout": {
+      "tags": []
+    },
+    "core-components": {
+      "tags": []
+    },
+    "core-profile": {
+      "tags": []
+    },
+    "core-notification": {
+      "tags": []
+    }
+  }
 }
