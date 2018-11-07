@@ -23,7 +23,7 @@
               "apps/home/src/assets"
             ],
             "styles": [
-              "apps/home/src/styles.css"
+              "apps/home/src/styles.scss"
             ],
             "scripts": []
           },
@@ -72,7 +72,7 @@
             "tsConfig": "apps/home/tsconfig.spec.json",
             "karmaConfig": "apps/home/karma.conf.js",
             "styles": [
-              "apps/home/src/styles.css"
+              "apps/home/src/styles.scss"
             ],
             "scripts": [],
             "assets": [
@@ -142,7 +142,7 @@
               "apps/directory/src/assets"
             ],
             "styles": [
-              "apps/directory/src/styles.css"
+              "apps/directory/src/styles.scss"
             ],
             "scripts": []
           },
@@ -191,7 +191,7 @@
             "tsConfig": "apps/directory/tsconfig.spec.json",
             "karmaConfig": "apps/directory/karma.conf.js",
             "styles": [
-              "apps/directory/src/styles.css"
+              "apps/directory/src/styles.scss"
             ],
             "scripts": [],
             "assets": [
@@ -261,7 +261,7 @@
               "apps/news/src/assets"
             ],
             "styles": [
-              "apps/news/src/styles.css"
+              "apps/news/src/styles.scss"
             ],
             "scripts": []
           },
@@ -310,7 +310,7 @@
             "tsConfig": "apps/news/tsconfig.spec.json",
             "karmaConfig": "apps/news/karma.conf.js",
             "styles": [
-              "apps/news/src/styles.css"
+              "apps/news/src/styles.scss"
             ],
             "scripts": [],
             "assets": [
@@ -380,7 +380,7 @@
               "apps/profile/src/assets"
             ],
             "styles": [
-              "apps/profile/src/styles.css"
+              "apps/profile/src/styles.scss"
             ],
             "scripts": []
           },
@@ -429,7 +429,7 @@
             "tsConfig": "apps/profile/tsconfig.spec.json",
             "karmaConfig": "apps/profile/karma.conf.js",
             "styles": [
-              "apps/profile/src/styles.css"
+              "apps/profile/src/styles.scss"
             ],
             "scripts": [],
             "assets": [
@@ -499,7 +499,7 @@
               "apps/benefits/src/assets"
             ],
             "styles": [
-              "apps/benefits/src/styles.css"
+              "apps/benefits/src/styles.scss"
             ],
             "scripts": []
           },
@@ -548,7 +548,7 @@
             "tsConfig": "apps/benefits/tsconfig.spec.json",
             "karmaConfig": "apps/benefits/karma.conf.js",
             "styles": [
-              "apps/benefits/src/styles.css"
+              "apps/benefits/src/styles.scss"
             ],
             "scripts": [],
             "assets": [
