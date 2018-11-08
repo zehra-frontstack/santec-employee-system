@@ -8,7 +8,11 @@
       "sourceRoot": "apps/home/src",
       "projectType": "application",
       "prefix": "suite-employee",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "styleext": "scss"
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -23,9 +27,12 @@
               "apps/home/src/assets"
             ],
             "styles": [
-              "apps/home/src/styles.scss"
+              "apps/home/src/styles.scss"              
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery-slim/dist/jquery.slim.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ] 
           },
           "configurations": {
             "production": {
@@ -50,7 +57,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "home:build"
+            "browserTarget": "home:build",
+            "port": 4100
           },
           "configurations": {
             "production": {
